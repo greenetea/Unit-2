@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+/* <!--  Base Styles --!> */
+
+body  {
+  background: #eaefd3;
+  color: #505168;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h1  {
+  font-size: 20px;
+  color: #27233a;
+  margin-top: 5px;
+}
+
+h2  {
+  font-size: 13px;
+}
+
+h3  {
+  font-size: 10px;
+}
+
+a   {
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.img  {
+  height: 75%;
+  width: 75%;
+}
+
+/* <!--  div boxes and wrappers  --!> */
+
+.main-content {
+  background: #d3facf;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-header  {
+  padding-bottom: 5px;
+}
+
+.main-nav li  {
+  background: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-nav a {
+  color: #b3c0a4;
+  padding: 4px;
+}
+
+.main-nav a:hover {
+  color: #fff;
+}
+
+.name a,
+main-nav a  {
+  padding: 10px, 15px;
+  display: block;
+}
+
+.footer-name,
+.footer-nav  {
+  display: inline-block;
+  padding: 0 3px 4px;
+}
+
+.footer-nav a {
+  color: #b3c0a4;
+  /* padding: 3px; */
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.footer-name  {
+  float: left;
+}
+
+.main-footer  {
+  background: #fff;
+}
