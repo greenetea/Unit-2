@@ -54,14 +54,23 @@ a   {
   margin-bottom: 5px;
 }
 
+/* <--!  Navigation  !--> */
+
 .main-header  {
   padding-bottom: 5px;
 }
 
+.main-nav   {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* text-transform: capitalize; */
+}
+
 .main-nav li  {
   background: #fff;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 3px;
+  padding-bottom: 3px;
 }
 
 .main-nav a {
@@ -79,6 +88,15 @@ main-nav a  {
   display: block;
 }
 
+.main-footer  {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  margin: 0;
+}
+
 .footer-name,
 .footer-nav  {
   display: inline-block;
@@ -94,10 +112,10 @@ main-nav a  {
   color: #fff;
 }
 
-.footer-name  {
+/* .footer-name  {
   float: left;
-}
+} */
 
-.main-footer  {
-  background: #fff;
+.clearfix {
+  overflow: auto;
 }
