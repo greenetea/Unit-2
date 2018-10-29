@@ -13,7 +13,6 @@ body  {
 p {
   font-size: 12px;
   margin: auto;
-  margin-bottom: 20px;
 }
 
 h1  {
@@ -40,7 +39,8 @@ a   {
   width: 75%;
 }
 
-/* <!--  div boxes and wrappers  --!> */
+
+/* <!--  layout  --!> */
 
 .main-content {
   background: #d3facf;
@@ -53,6 +53,15 @@ a   {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.container  {
+  margin: 20px 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 
 /* <--!  Navigation  !--> */
 
@@ -89,7 +98,6 @@ main-nav a  {
 }
 
 .main-footer  {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -116,6 +124,32 @@ main-nav a  {
   float: left;
 } */
 
-.clearfix {
-  overflow: auto;
+
+
+    /* <--!  media queries !-->     */
+
+@media (min-width: 767px)  {
+    /* <--!  navigation  !-->     */
+
+    .main-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      margin: 0;
+    }
+
+    .main-nav {
+      display: inline-block;
+      padding: 0 3px 4px;
+    }
+    .main-nav a:hover {
+      color: #fff;
+    }
+
+    .name,  {
+      padding: 10px, 15px;
+      display: block;
+    }
 }
