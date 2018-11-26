@@ -68,7 +68,7 @@ a   {
   margin-left: 100px;
   margin-right: 100px;
 }
-
+/*
 .marketing-container p,
 .search-container p,
 .travel-container p,
@@ -77,7 +77,7 @@ a   {
   margin-bottom: 17px;
   margin-left: 30px;
   margin-right: 30px;
-}
+} */
 
 .contact-container  {
   padding-top: 10px;
@@ -191,15 +191,16 @@ main-nav a  {
 general alignment
 !<----    ====== */
 
-    /* .marketing-container p,
+    .marketing-container p,
     .search-container p,
     .favorites-container p,
     .travel-container p,
-    .photo-container p,
-    .calculator-container p {
-      padding-left: 15px;
-      padding-right: 15px;
-    } */
+    .photo-container p {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
 
     .contact-container  {
       padding-top: 10px;
@@ -225,14 +226,16 @@ side by side
     }
 
     .marketing-container,
-    .travel-container {
+    .travel-container,
+    .photo-container  {
       float: left;
       width: 50%;
       display: inline-block;
     }
 
     .search-container,
-    .favorites-container  {
+    .favorites-container,
+    .calculator-container {
       float: right;
       width: 50%;
       display: inline-block;
