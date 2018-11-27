@@ -147,6 +147,10 @@ main-nav a  {
   color: #fff;
 }
 
+.footer1024 {
+  display: none;
+}
+
 
 /*  =====
  <--!  media queries !-->
@@ -176,6 +180,10 @@ main-nav a  {
       padding-top: 0;
       margin-top: -5px;
       background: white;
+    }
+
+    .footer1024 {
+      display: none;
     }
 
 /* =======   ---->!
@@ -208,13 +216,14 @@ side by side
 
     .intro img  {
       float: right;
-      margin: 15px 0 15px 15px;
+      margin: 15px 5%;
     }
 
     .intro p {
       width: 40%;
       float: left;
-      padding-top: 30px;
+      padding-top: 40px;
+      margin-left: 10%
     }
 
     .marketing-container,
@@ -232,10 +241,13 @@ side by side
       width: 50%;
       display: inline-block;
     }
+
+
 /* ======
  ----! clearfix !----
  ======= */
- .clearfix::after {
+
+  .clearfix::after {
     content: "";
     clear: both;
     display: table;
@@ -264,8 +276,34 @@ navigation    !<----   ===== */
     }
 
     .name  {
-      display: inline-block;
       float: left;
+      margin-top: 3px;
+    }
+
+    .sections {
+      float: right;
+    }
+
+    .short  {
+      display: none;
+    }
+
+    .footer-nav {
+      position: relative;
+    }
+
+    .footer1024 {
+      margin: 0;
+      display: inline-block;
+      padding: 6px 4px;
+      float: right;
+    }
+
+/* =====   ---->!
+layout      !<----   === */
+
+    .intro p  {
+      margin-left: 10%;
     }
 
 /* ====   ---->!
@@ -291,8 +329,10 @@ floats      !<----    ===== */
       display: inline-block;
     }
 
+
 /* =====     ---->!
 clearfix      !<----    ==== */
+
     .clearfix::after {
        content: "";
        clear: both;
