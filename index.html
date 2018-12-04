@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>GreeneTea</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/styles.css">
-    </head>
+  <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>GreeneTea</title>
+  </head>
 
     <body>
         <header class="main-header">
-            <h1 class="name">GreeneTea</h1>
-              <ul class="main-nav clearfix">
-                <div class="sections">
+          <div class="container clearfix">
+            <h1 class="name" id="#home">GreeneTea</h1>
+            <nav>
+              <ul class="main-nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
-            </div>
+            </nav>
+          </div>
         </header>
 
-            <div class="intro clearfix">
-              <img src="images/responsive-layout-profile.png" class="img" alt="A Developer's Portrait">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                          nisi ut aliquip.</p>
+        <div class="wrapper">
+          <div class="intro clearfix">
+          <div class="container">
+              <img src="images/responsive-layout-profile.png" class="portfolio-img" alt="A Developer's Portrait">
+              <p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                       enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip.</p>
               </div>
+              </div>
+            </div>
 
-        <div class="row1 clearfix">
-          <div class="main-content clearfix">
-            <h2 id="portfolio">Portfolio</h2>
-            <div class="marketing-container">
+        <div class="container clearfix">
+            <h2 id="portfolio" id="portfolio">Portfolio</h2>
+            <div class="col">
               <img src="images/portfolio-1.png" class="img" alt="Portfolio">
               <h1>Marketing Page</h1>
               <p>Ex ea commodo consequat. Duis aute irure dolor in reprehenderit
@@ -39,15 +45,15 @@
                  qui officia.</p>
               </div>
 
-              <div class="search-container">
+              <div class="col">
                 <img src="images/portfolio-2.png" class="img" alt="Search Page">
                 <h1 class="title">Search Page</h1>
                 <p>Deserunt mollit anim id est laborum. Sed ut perspiciatis unde
                    omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+                   totam rem aperiam, eaque ipsa quae ab.</p>
               </div>
 
-            <div class="travel-container">
+            <div class="col">
               <img src="images/portfolio-3.png" class="img" alt="Travel App">
               <h1>Travel App</h1>
               <p>Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
@@ -55,8 +61,8 @@
                  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</p>
             </div>
 
-        <div class="row2 clearfix">
-          <div class="favorites-container">
+        <div class="col">
+          <!-- <div class="favorites-container"> -->
             <img src="images/portfolio-4.png" class="img" alt="Maps of my Favorite Spots">
             <h1>Map of Favorite Spots</h1>
             <p>Non provident, similique sunt in culpa qui officia deserunt mollitia
@@ -64,15 +70,15 @@
                est et expedita distinctio. Nam libero tempore, cum soluta nobis est!</p>
           </div>
 
-          <div class="photo-container clearfix">
-            <img src="images/portfolio-5.png" class="img" alt="Photo Gallery">
+          <div class="col">
+          <img src="images/portfolio-5.png" class="img" alt="Photo Gallery">
             <h1>Photo Gallery</h1>
             <p>Sed quia non numquam eius modi tempora incidunt ut labore et
                dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
                veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
           </div>
 
-          <div class="calculator-container clearfix">
+          <div class="col">
             <img src="images/portfolio-6.png" class="img" alt="Calculator">
             <h1>Calculator</h1>
             <p>Laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
@@ -82,7 +88,7 @@
          </div>
        </div>
     </div>
-         <div class="contact-container">
+         <div class="container">
             <h2 id="contact">Contact</h2>
             <p>Nulla pariatur? At vero eos et accusamus et iusto odio dignissimos
               ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
@@ -97,16 +103,16 @@
     <footer>
       <div class="main-footer">
         <h3 class="footer-name">GreenTea</h3>
-        <ul class="footer-nav">
+        <!-- <ul class="footer-nav">
           <ul class="footer1024">
               <li><a href="#home">Home</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
-            </ul>
-          <li class="short"><a href="index.html">Back to top</a></li>
+            </ul> -->
+          <a href="index.html">Back to top</a>
           <!-- <li><a href="#">Home</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li> -->
-        </ul>
+        <!-- </ul> -->
       </div>
       </footer>
