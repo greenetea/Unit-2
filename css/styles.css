@@ -1,12 +1,18 @@
-html {
+*, *:before, *:after {
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
 }
 
 /* <!--  Base Styles --!> */
@@ -148,7 +154,6 @@ main-nav a  {
   display: none;
 }
 
-
 /*  =====
  <--!  media queries !-->
  ===== */
@@ -165,7 +170,7 @@ main-nav a  {
     .main-nav {
       text-align: center;
     }
-    /* .main-nav a, */
+
     .main-nav li {
       display: inline-block;
       margin-right: 15px;
@@ -216,17 +221,14 @@ side by side
       display: inline-block;
     }
 
+    .footer1024 {
+      display: none;
+    }
+}
 
 /* ======
  ----! clearfix !----
  ======= */
-
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-}
 
   @media (min-width: 1024px)  {
 
@@ -258,20 +260,17 @@ navigation    !<----   ===== */
       float: right;
     }
 
-    .short  {
-      display: none;
-    }
-
     .footer-nav {
       position: relative;
+      display: inline-block;
     }
 
-    .footer1024 {
-      margin: 0;
-      display: inline-block;
-      padding: 6px 4px;
-      float: right;
+    .footer1024,
+    .footer1024 li,
+    .footer1024 a {
+      display: inline;
     }
+
 
 /* =====   ---->!
 layout      !<----   === */
@@ -282,10 +281,6 @@ layout      !<----   === */
 
 /* ====   ---->!
 floats      !<----    ===== */
-
-    .row1 {
-      float: left;
-    }
 
     .marketing-container,
     .travel-container,
@@ -299,13 +294,4 @@ floats      !<----    ===== */
       width: 33%;
       display: inline-block;
     }
-
-
-/* =====     ---->!
-clearfix      !<----    ==== */
-
-    .clearfix2::after {
-       content: "";
-       clear: both;
-       display: table;
-     }
+}
