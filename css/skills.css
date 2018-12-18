@@ -1,0 +1,77 @@
+/* =========================================>
+global style
+=========================================> */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* ==========================================>
+Base styles
+==========================================> */
+
+.body {
+  background: #333300;
+  color: white;
+}
+
+p {
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1  {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+span  {
+  font-style: bold;
+}
+
+/* ========================================>
+
+========================================> */
+
+.name {
+  display: inline-block;
+  margin: auto;
+}
+
+
+.banner {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+}
+
+.firstbox {
+  background: ffffe6;
+  float: left;
+  width: 40%;
+}
+
+.secondbox  {
+  background: ffffe6;
+  float: right;
+  width: 40%
+}
