@@ -61,10 +61,12 @@ span  {
   font-weight: bold;
 }
 
-/* <!--  layout  --!> */
+/* ==========================
+<!--  layout  --!>
+============================= */
 
-.intro  {
-  padding-bottom: 20px;
+nav {
+  background: #ffffff;
 }
 
 .intro  {
@@ -85,9 +87,9 @@ span  {
   margin-bottom: 5px;
 }
 
-/*    ==========
+/* ==========================
  <--!  Navigation  !-->
- =========*/
+ ============================ */
 
 .name {
   text-align: center;
@@ -154,13 +156,15 @@ main-nav a  {
   display: none;
 }
 
-/*  =====
+/*  =====================
  <--!  media queries !-->
- ===== */
+ =========================  */
 
 @media (min-width: 767px)  {
 
-    /* <--!  navigation  !-->     */
+/*  =======================
+ <--!  navigation  !-->
+ ========================== */
 
     .wrapper  {
       max-width: 1280px;
@@ -198,22 +202,15 @@ main-nav a  {
       width: 30%;
     }
 
-/* =====     ----->!
+/* ======================
 side by side
-!<-----     ===== */
+========================= */
 
     .intro img  {
       float: right;
       margin: 20px 15px 5%;
-      padding: auto;
+      padding: 25;
     }
-
-    /* .intro {
-      float: left;
-      padding-bottom: 20px;
-      margin-top: 30px;
-      margin-bottom: 25px;
-    } */
 
     .col  {
       float: left;
@@ -226,14 +223,12 @@ side by side
     }
 }
 
-/* ======
- ----! clearfix !----
- ======= */
 
   @media (min-width: 1024px)  {
 
-/* ======    ---->!
-navigation    !<----   ===== */
+/* ======================
+navigation
+========================= */
 
     .main-header  {
       margin-left: 0px;
@@ -260,15 +255,22 @@ navigation    !<----   ===== */
       float: right;
     }
 
+    .main-footer  {
+      display: none;
+    }
+
     .footer-nav {
       position: relative;
       display: inline-block;
     }
 
+    .name,
     .footer1024,
-    .footer1024 li,
-    .footer1024 a {
-      display: inline;
+    .footer1024 a,
+    .footer1024 li {
+      margin: 0;
+      display: inline-block;
+      padding: 6px 4px;
     }
 
 
