@@ -47,7 +47,7 @@ h3  {
 
 a   {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .img  {
@@ -124,8 +124,7 @@ nav {
   color: #fff;
 }
 
-.name a,
-main-nav a  {
+.main-nav a  {
   padding: 10px 15px;
   display: block;
 }
@@ -136,6 +135,7 @@ main-nav a  {
   right: 0;
   background: #fff;
   margin: 0;
+  display: inline-block;
 }
 
 .footer-name,
@@ -172,14 +172,14 @@ main-nav a  {
       margin: 0 auto;
     }
 
-    .main-nav {
-      text-align: center;
-    }
-
+    .main-nav,
+    .main-nav a,
     .main-nav li {
+      margin: 0;
       display: inline-block;
-      margin-right: 15px;
-    }
+      padding: 6px 4px;
+}
+
     .main-nav a:hover {
       color: #000;
     }
