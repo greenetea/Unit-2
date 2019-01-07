@@ -83,6 +83,9 @@ h2  {
 }
 
 
+li {
+  list-style: none;
+}
 
 /* ========================================>
 box styling
@@ -176,6 +179,10 @@ Navigation
     padding-left: 4px;
     padding-right: 2px
   }
+
+  nav a:not(:first-child) {
+    display: none;
+}
 
   .mobile,
   .mobile a  {
