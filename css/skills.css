@@ -111,10 +111,6 @@ Navigation
   background: #faebd7;
 }
 
-.main-footer,
-.main-header,
-.main-header a,
-.main-footer a,
 .name  {
   display: block;
   margin: 0;
@@ -138,7 +134,7 @@ footer  {
 media queries
 ========================================= */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 
   .name {
     display: inline-block;
@@ -172,10 +168,6 @@ Navigation
     padding-left: 4px;
     padding-right: 2px
   }
-
-  nav a:not(:first-child) {
-    display: none;
-}
 
   .mobile,
   .mobile a  {
