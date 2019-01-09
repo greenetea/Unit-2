@@ -60,6 +60,8 @@ a   {
 
 span  {
   font-weight: bold;
+  font-size: 24px;
+  color: #98fb98;
 }
 
 /* ==========================
@@ -216,6 +218,25 @@ side by side
     .footer1024 {
       display: none;
     }
+
+    .skills-intro {
+      float: left;
+      width: 50%;
+      display: inline;
+      margin: 20px;
+    }
+
+    .skills {
+      width: 50%;
+      display: inline;
+      margin: 20px;
+    }
+
+    .contact  {
+      display: block;
+      text-align: center;
+    }
+
 }
 
 
