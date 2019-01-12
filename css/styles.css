@@ -64,6 +64,11 @@ span  {
   color: #98fb98;
 }
 
+.wrapper  {
+  background: #8baca0;
+  color: #eaefd3;
+}
+
 /* ==========================
 <!--  layout  --!>
 ============================= */
@@ -200,7 +205,7 @@ nav {
     }
 
 /* ======================
-side by side
+layout
 ========================= */
 
     .intro img  {
@@ -295,6 +300,10 @@ layout      !<----   === */
 
     .intro p  {
       margin-left: 10%;
+    }
+
+    .bottom-wrapper  {
+      padding: 0 20px;
     }
 
 /* ====   ---->!
